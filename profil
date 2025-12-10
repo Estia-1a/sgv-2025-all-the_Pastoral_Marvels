@@ -1,0 +1,6 @@
+<form action="" method="get" class="form-example">
+  <div class="form-example">
+    <label for="name">Entrez votre nom&nbsp;: </label>
+    <input type="text" name="name" id="name" required />
+  </div>
+  

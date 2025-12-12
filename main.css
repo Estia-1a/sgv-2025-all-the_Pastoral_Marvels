@@ -15,3 +15,10 @@
 body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; background: var(--bg); color: var(--dark); line-height: 1.6; }
 h1, h2, h3, h4 { font-family: 'Poppins', sans-serif; color: var(--primary); margin-top: 0; }
 a { text-decoration: none; color: inherit; }
+/* HEADER */
+header { background: var(--light); box-shadow: 0 2px 10px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 100; }
+nav { max-width: 1200px; margin: 0 auto; padding: 1rem 20px; display: flex; justify-content: space-between; align-items: center; }
+.logo { font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+nav ul { display: flex; gap: 20px; list-style: none; margin: 0; padding: 0; }
+nav a { font-weight: 500; transition: 0.3s; color: #555; }
+nav a:hover, nav a.active { color: var(--secondary); }

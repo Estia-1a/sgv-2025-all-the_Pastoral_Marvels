@@ -22,6 +22,7 @@ function ajouterAuxFavoris(titre, prix, lieu, image) {
         alert("✅ Candidature ajoutée dans l'onglet 'Favoris' !");
     }
 }
+
 // 2. FONCTION : AFFICHER LES FAVORIS (Sur la page favoris.html)
 function afficherFavoris() {
     const container = document.getElementById('listeFavoris');
@@ -60,6 +61,7 @@ function afficherFavoris() {
         });
     }
 }
+
 // 3. FONCTION : SUPPRIMER UN FAVORI
 function supprimerFavori(index) {
     if(confirm("Supprimer cette candidature ?")) {
@@ -69,6 +71,7 @@ function supprimerFavori(index) {
         afficherFavoris(); // Recharger la zone
     }
 }
+
 // 4. FONCTION : GESTION DU PROFIL (L'ancien code qui marchait)
 function initProfil() {
     const btn = document.getElementById('btnProfil');
